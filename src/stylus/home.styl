@@ -1,0 +1,46 @@
+.hero
+    position: relative
+    padding: 10rem
+    padding: 15.5vh 20vw
+    background-color: $theme-red-dk
+    z-index -2
+    &::after
+        content: ""
+        background-image: url("../assets/images/hero_image.jpg")
+        background-size: cover
+        background-repeat: no-repeat
+        background-position-y: 25%
+        opacity: 0.6
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        position: absolute
+        z-index -1
+    &__title
+        position relative
+        margin 0
+        color: #FFF
+        text-align: center;
+        text-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.5);
+        z-index 1
+
+.home
+    &__intro-para
+        text-align: justify
+        margin-top: 0.5rem
+        margin-bottom: 2.4rem
+    &__btn-container
+        display: flex
+        justify-content: center
+    &__testimonials
+        padding: 1.5rem 26%
+        background-color: $theme-grey
+
+.about-us
+    &__title
+        margin-top: 0.5rem
+        margin-bottom: 0.5rem
+    &__para
+        &--first
+            margin-top: 0.5rem

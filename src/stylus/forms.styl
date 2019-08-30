@@ -1,0 +1,70 @@
+.form
+    &__container
+        &--dark
+            background-color: $theme-grey
+    &__header
+        margin-top: 3rem
+    &__title
+        margin-bottom: 0
+        color: $theme-green
+    &__subtitle-section
+        display: flex
+        align-items: center
+        margin: 0.2rem 0 2rem 0
+    &__subtitle
+        display inline-block
+        margin: 0
+        color: #FFF
+
+    &__h3
+        color: $theme-green
+        flex-basis: 100%
+
+    &__h4
+        margin-top: 0
+        margin-bottom: 1rem
+        color: $theme-green
+        flex-basis: 100%
+        
+    &__h5
+        margin-top: 0
+        margin-bottom: 1rem
+        padding-bottom: 1rem
+        border-bottom: 1px solid $theme-green
+        color: $theme-green
+        flex-basis: 100%
+
+    &__section
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__group
+        display: flex
+        flex-direction: column
+        margin-bottom: 2.5rem
+        &--half
+            flex-basis: 48%
+        &--full
+            flex-basis: 100%
+        &--button
+            justify-content: flex-end
+
+    &__input, &__select
+        height: 2rem
+        padding: 0.25rem 0.5rem
+        color: $theme-grey-lt
+        border: none
+        border-radius: 0.625rem
+        font-size: 1rem
+        &:hover, &:focus
+            outline: none
+            box-shadow: none
+
+    &__select
+        height: 2.5rem
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        
+        // border-radius: 0.625rem
+

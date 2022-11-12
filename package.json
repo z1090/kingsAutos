@@ -4,7 +4,7 @@
   "description": "## [GET SCOTCH BOX PRO](https://box.scotch.io/pro)",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "del": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
